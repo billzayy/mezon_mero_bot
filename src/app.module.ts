@@ -6,6 +6,8 @@ import { TarotHandler } from './handlers/tarot.handler';
 import { NumerologyHandler } from './handlers/numerology.handler';
 import { HoroscopeHandler } from './handlers/horoscope.handler';
 import { UtilityHandler } from './handlers/utility.handler';
+import { HelpHandler } from './handlers/help.handler';
+import { DmHandler } from './handlers/dm.handler';
 
 @Module({
   imports: [
@@ -24,6 +26,8 @@ import { UtilityHandler } from './handlers/utility.handler';
     NumerologyHandler,
     HoroscopeHandler,
     UtilityHandler,
+    HelpHandler,
+    DmHandler,
   ],
 })
 export class AppModule {}
